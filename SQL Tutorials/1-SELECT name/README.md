@@ -1,12 +1,11 @@
-## SELECT basics
-| name | continet | area | population | gdp |
-| :--- | :--- | :--- | :--- | :--- |
-| Afghanistan | Asia | 652230 | 25500100 | 20343000000 |
+## SELECT names
+| name | continet |
+| :--- | :--- |
+| Afghanistan | Asia | 
 | Albania | Europe |  |  |  |
 | Algeria | Africa |  |  |  |
 | Andorra | Europe |  |  |  |
 | Angola | Africa |  |  |  |
-| ... |  |  |  |  |
 
 ## Exercises and Answers
 #### 1. Introducing the world table countries
