@@ -11,7 +11,14 @@ Learn SQL
 This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial) 
 
 
-## SQL Zoo Contents and Quiz
-| Tutorial | Description | Quiz |
-| :--- | :--- | :--- |
-| [0 SELECT basics]() | Some simple queries to get you started | [SELECT Quiz]() |
+## SQL Zoo Contents
+| Tutorial | Description |
+| :--- | :--- |
+| [0 SELECT basics](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/0-SELECT%20basics) | Simple queries to get you started |
+| [1 SELECT name](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/1-SELECT%20name) | Pattern matching queries |
+
+
+## SQL Zoo Quiz
+| Quiz |
+| :---: |
+| [0 SELECT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/0-SELECT%20Quiz) |
