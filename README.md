@@ -17,6 +17,7 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [0 SELECT basics](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/0-SELECT%20basics) | Simple queries to get you started |
 | [1 SELECT name](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/1-SELECT%20name) | Pattern matching queries |
 | [2 SELECT from World](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/2-SELECT%20from%20World) | Query the World country profile table |
+| [3 SELECT from Nobelk](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/3-SELECT%20from%20Nobel) | Query the World country profile table |
 
 
 ## SQL Zoo Quiz
