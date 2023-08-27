@@ -22,5 +22,7 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 
 ## SQL Zoo Quiz
 | Quiz |
-| :---: |
+| :--- |
 | [0 SELECT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/0-SELECT%20Quiz) |
+| [1 BBC Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/1-BBC%20Quiz) |
+| [2 BBC Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/2-Nobel%20Quiz) |
