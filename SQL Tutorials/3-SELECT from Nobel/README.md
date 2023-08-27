@@ -1,5 +1,5 @@
 ## SELECT from Nobel Tutorial
-### nobel Nobel Laureates
+### Nobel Laureates
 Practice simple SQL queries on a single table. This tutorial is concerned with a table of Nobel prize winners:
 ```
 nobel(yr, subject, winner)
