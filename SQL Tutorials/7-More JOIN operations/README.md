@@ -3,7 +3,7 @@ This tutorial introduces the notion of a join. The database consists of three ta
 
 [More details about the database](https://sqlzoo.net/wiki/More_details_about_the_database.)
 
-![Movie Actor Casting]()
+![Movie Actor Casting](https://github.com/ojudz08/sqlzoo-answers/blob/main/img/more_join_operation.png)
 
 ### JOIN and UEFA EURO 2012
 ----
