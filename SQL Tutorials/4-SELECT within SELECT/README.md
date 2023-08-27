@@ -71,7 +71,7 @@ Decimal Places: Use the function ROUND to remove the decimal places.
 Percent Symbol %: Use the function CONCAT to add the percentage symbol.
 ```SQL
 SELECT name, CONCAT(ROUND((population/(SELECT population FROM world
-                                        WHERE name = 'GERMANY'))*100, 0), '%') AS percentage
+                                       WHERE name = 'GERMANY'))*100, 0), '%') AS percentage
 FROM world
 WHERE continent = 'Europe' 
 ```
@@ -87,7 +87,7 @@ We can use the word ALL to allow >= or > or < or <=to act over a list. For examp
 ```SQL
 SELECT name FROM world
 WHERE population >= ALL (SELECT population FROM world
-                        WHERE population>0)
+                         WHERE population>0)
 ```
 
 #### 6. Which countries have a GDP greater than every country in Europe? [Give the name only.] (Some countries may have NULL gdp values)
@@ -127,7 +127,7 @@ WHERE name = (SELECT name FROM world
 ```SQL
 SELECT name, continent, population FROM world x
 WHERE 25000000 >= ALL (SELECT population FROM world y
-		               WHERE x.continent = y.continent
+		       WHERE x.continent = y.continent
                        AND y.population>0)
 ```
 
