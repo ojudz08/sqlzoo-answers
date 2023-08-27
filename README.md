@@ -19,8 +19,9 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [2 SELECT from World](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/2-SELECT%20from%20World) | Query the World country profile table |
 | [3 SELECT from Nobel](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/3-SELECT%20from%20Nobel) | Additional practice of the basic features using a table of Nobel Prize winners |
 | [4 SELECT within Select](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/4-SELECT%20within%20SELECT) | Form queries using other queries |
-| [5 SUM and COUNT](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/5-SUM%20and%20COUNT) | Queries with SUM and COUNT |
-| [6 JOIN](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/6-JOIN) | Queries using JOIN operation |
+| [5 SUM and COUNT](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/5-SUM%20and%20COUNT) | Apply aggregate functions |
+| [6 JOIN](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/6-JOIN) | Join two tables; game and goals |
+| [7 More JOIN Oprations]() | Join actors to movies in the Movie Database |
 
 
 ## SQL Zoo Quiz
@@ -32,6 +33,8 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [3 Nested SELECT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/3-Nested%20SELECT%20Quiz) | Questions with nested SELECT |
 | [4 SUM and COUNT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/4-SUM%20and%20COUNT%20Quiz) | Questions about SUM and Count |
 | [5 JOIN Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/5-JOIN%20Quiz) | Questions on JOIN operation |
+| [6 JOIN Quiz 2]() | More questions on JOIN operation |
+
 
 
 ## References
