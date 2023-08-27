@@ -42,3 +42,4 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | :--- | 
 | [SUM, Count, MAX, DISTINCT and ORDER BY](https://github.com/ojudz08/sqlzoo-answers/tree/main/References/SUM%2C%20Count%2C%20MAX%2C%20DISTINCT%20and%20ORDER%20BY) |
 | [GROUP BY and HAVING](https://github.com/ojudz08/sqlzoo-answers/tree/main/References/GROUP%20BY%20and%20HAVING) |
+| [Get to the point](https://github.com/ojudz08/sqlzoo-answers/tree/main/References/Get%20to%20the%20point) |
