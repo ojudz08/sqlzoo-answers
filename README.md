@@ -18,7 +18,8 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [1 SELECT name](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/1-SELECT%20name) | Pattern matching queries |
 | [2 SELECT from World](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/2-SELECT%20from%20World) | Query the World country profile table |
 | [3 SELECT from Nobel](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/3-SELECT%20from%20Nobel) | Additional practice of the basic features using a table of Nobel Prize winners |
-| [4 SELECT within Select](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/3-SELECT%20from%20Nobel) | Form queries using other queries |
+| [4 SELECT within Select](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/4-SELECT%20within%20SELECT) | Form queries using other queries |
+| [5 SUM and COUNT](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/5-SUM%20and%20COUNT) | Queries with SUM and COUNT |
 
 
 ## SQL Zoo Quiz
@@ -26,5 +27,13 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | :--- | :--- |
 | [0 SELECT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/0-SELECT%20Quiz) | Some questions concerning basic SQL statements |
 | [1 BBC Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/1-BBC%20Quiz) | Questions using world table |
-| [2 BBC Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/2-Nobel%20Quiz) | Questions using nobel table |
+| [2 Nobel Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/2-Nobel%20Quiz) | Questions using nobel table |
 | [3 Nested SELECT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/3-Nested%20SELECT%20Quiz) | Questions with nested SELECT |
+| [4 SUM and COUNT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/4-SUM%20and%20COUNT%20Quiz) | Questions about SUM and Count |
+
+
+## References
+| References | 
+| :--- | 
+| [SUM, Count, MAX, DISTINCT and ORDER BY](https://github.com/ojudz08/sqlzoo-answers/tree/main/References/SUM%2C%20Count%2C%20MAX%2C%20DISTINCT%20and%20ORDER%20BY) |
+| [GROUP BY and HAVING](https://github.com/ojudz08/sqlzoo-answers/tree/main/References/GROUP%20BY%20and%20HAVING) |
