@@ -3,7 +3,7 @@ Some questions concerning basic SQL statements
 | name | continet | area | population | gdp |
 | :--- | :--- | :--- | :--- | :--- |
 | Afghanistan | Asia | 652230 | 25500100 | 20343000000 |
-| Albania | Asia |  |  |  |
+| Albania | Europe |  |  |  |
 | Algeria | Africa |  |  |  |
 | Andorra | Europe |  |  |  |
 | ... |  |  |  |  |

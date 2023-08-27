@@ -1,85 +1,76 @@
-## SELECT Quiz
-Some questions concerning basic SQL statements
-| name | continet | area | population | gdp |
+## BBC Quiz
+| name | continent | area | population | gdp |
 | :--- | :--- | :--- | :--- | :--- |
-| Afghanistan | Asia | 652230 | 25500100 | 20343000000 |
-| Albania | Asia |  |  |  |
-| Algeria | Africa |  |  |  |
+| Afghanistan | South Asia | 652230 | 25500100 | 20343000000 |
+| Albania | Europe |  |  |  |
+| Algeria | Middle East |  |  |  |
 | Andorra | Europe |  |  |  |
+| Brazil | South America |  |  |  |
 | ... |  |  |  |  |
 
 ## Quiz and Answers
-#### 1. Select the code which produces this table
-| name | population |
-| :--- | :--- | 
-| Bahrain | 1234571 | 
-| Swaziland | 1220000 |
-| Timor-Leste | 1066409 |
-
-##### ANSWER
-```SQL
-SELECT name, population FROM world
-WHERE population BETWEEN 1000000 AND 1250000
-```
-
-
-#### 2. Pick the result you would obtain from this code:
-```SQL
-SELECT name, population FROM world
-WHERE name LIKE "Al%"
-```
-
-##### ANSWER
-| name | population |
-| :--- | :--- | 
-| Albania | 3200000 | 
-| Algeria | 32900000 |
-
-
-#### 3. Select the code which shows the countries that end in A or L
+#### 1. Select the code which gives the name of countries beginning with U
 ##### ANSWER
 ```SQL
 SELECT name FROM world
-WHERE name LIKE '%a' OR name LIKE '%l'
+WHERE name LIKE 'U%'
 ```
 
 
-#### 4. Pick the result from the query
-```SQL
-SELECT name, length(name) FROM world
-WHERE length(name) = 5 and region = 'Europe'
-```
-
-##### ANSWER
-| name | length(name) |
-| :--- | :---: | 
-| Italy | 5 | 
-| Malta | 5 |
-| Spain | 5 |
-
-
-#### 5. Pick the result you would obtain from this code:
-```SQL
-SELECT name, area*2 FROM world WHERE population = 64000
-```
-
-##### ANSWER
-| name | area*2 |
-| :--- | :---: | 
-| Andorra | 936 |
-
-
-#### 6. Select the code that would show the countries with an area larger than 50000 and a population smaller than 10000000
+#### 2. Select the code which shows just the population of United Kingdom?
 ##### ANSWER
 ```SQL
-SELECT name, area, population FROM world
-WHERE area > 50000 AND population < 10000000
+SELECT population FROM world
+WHERE name = 'United Kingdom'
 ```
 
 
-#### 7. Select the code that shows the population density of China, Australia, Nigeria and France
+#### 3. Select the answer which shows the problem with this SQL code - the intended result should be the continent of France:
+```SQL
+SELECT continent FROM world 
+WHERE 'name' = 'France'
+```
+##### ANSWER
+```
+'name' should be name
+```
+
+
+#### 4. Select the result that would be obtained from the following code:
+```SQL
+SELECT name, population / 10 FROM world 
+WHERE population < 10000
+```
+##### ANSWER
+| name | population/10 |
+| :--- | :--- | 
+| Nauru | 990 |
+
+
+#### 5. Select the code which would reveal the name and population of countries in Europe and Asia
 ##### ANSWER
 ```SQL
-SELECT name, population/area FROM world
-WHERE name IN ('China', 'Nigeria', 'France', 'Australia')
+SELECT name, population FROM world
+WHERE continent IN ('Europe', 'Asia')
 ```
+
+
+#### 6. Select the code which would give two rows
+##### ANSWER
+```SQL
+SELECT name FROM world
+WHERE name IN ('Cuba', 'Togo')
+```
+
+
+#### 7. Select the result that would be obtained from this code:
+```SQL
+SELECT name FROM world
+WHERE continent = 'South America'
+AND population > 40000000
+```
+##### ANSWER
+| name |
+| :--- | 
+| Brazil |
+| Colombia |
