@@ -33,8 +33,7 @@ WHERE 50000 < ALL (SELECT population FROM bbc y
 ##### ANSWER
 ```SQL
 SELECT name, region FROM bbc x
-WHERE population < ALL (SELECT population/3 FROM bbc y
-                        WHERE y.region = x.region AND y.name != x.name)
+WHERE population < ALL (SELECT population/3 FROM bbc y WHERE y.region = x.region AND y.name != x.name)
 ```
 
 
