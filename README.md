@@ -31,7 +31,7 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [2 Nobel Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/2-Nobel%20Quiz) | Questions using nobel table |
 | [3 Nested SELECT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/3-Nested%20SELECT%20Quiz) | Questions with nested SELECT |
 | [4 SUM and COUNT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/4-SUM%20and%20COUNT%20Quiz) | Questions about SUM and Count |
-| [5 JOIN Quiz]() | Questions on JOIN operation |
+| [5 JOIN Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/5-JOIN%20Quiz) | Questions on JOIN operation |
 
 
 ## References
