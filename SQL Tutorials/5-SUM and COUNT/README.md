@@ -11,13 +11,11 @@ This tutorial is about aggregate functions such as COUNT, SUM and AVG. An aggreg
 | ... |  |  |  |  |
 
 
-### Total world population
 Look at these references before proceeding to the exercise below.
-Using [SUM, Count, MAX, DISTINCT and ORDER BY]()
+Using [SUM, Count, MAX, DISTINCT and ORDER BY](https://github.com/ojudz08/sqlzoo-answers/tree/main/References/SUM%2C%20Count%2C%20MAX%2C%20DISTINCT%20and%20ORDER%20BY)
+
+### Total world population
 #### 1. Show the total population of the world.
-```
-world(name, continent, area, population, gdp)
-```
 ```SQL
 SELECT SUM(population)
 FROM world
@@ -56,22 +54,29 @@ WHERE name IN ('Estonia', 'Latvia', 'Lithuania')
 
 
 ### Using GROUP BY and HAVING
-You may want to look at these examples: Using [GROUP BY and HAVING]()
-#### 0. Qs
+You may want to look at these examples: Using [GROUP BY and HAVING](https://github.com/ojudz08/sqlzoo-answers/tree/main/References/GROUP%20BY%20and%20HAVING)
+
+
+### Counting the countries of each continent
+#### 6. For each continent show the continent and number of countries.
 ```SQL
-SELECT 
+SELECT continent, COUNT(name) FROM world
+GROUP BY continent
+```
+
+### Counting big countries in each continent
+#### 7. For each continent show the continent and number of countries with populations of at least 10 million.
+```SQL
+SELECT continent, COUNT(name) FROM world
+WHERE population >= 10000000
+GROUP BY continent
 ```
 
 
-### Title Here
-#### 0. Qs
+### Counting big continents
+#### 8. List the continents that have a total population of at least 100 million.
 ```SQL
-SELECT 
-```
-
-
-### Title Here
-#### 0. Qs
-```SQL
-SELECT 
+SELECT continent FROM world
+WHERE population >= 100000000
+GROUP BY continent
 ```
