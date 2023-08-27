@@ -1,10 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="left">
-<h1 align="left">SQL Tutorial</h1>
-</div>
-
-
 <!-- ABOUT PROJECT -->
 Learn SQL
 
