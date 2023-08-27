@@ -47,7 +47,7 @@ WHERE title = 'Casablanca'
 ```
 
 
-#### [Get to the point]()
+#### [Get to the point](https://github.com/ojudz08/sqlzoo-answers/tree/main/References/Get%20to%20the%20point)
 ### Cast list for Casablanca
 #### 6. Obtain the cast list for 'Casablanca'
 What is a cast list? The cast list is the names of the actors who were in the movie.
