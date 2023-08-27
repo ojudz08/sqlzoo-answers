@@ -1,6 +1,6 @@
 ## The JOIN operation Tutorial
 
-![UEFA EURO 2012 Football Championship in Poland and Ukraine](img/join_operation.png)
+![UEFA EURO 2012 Football Championship in Poland and Ukraine](https://github.com/ojudz08/sqlzoo-answers/blob/main/img/join_operation.png)
 
 
 
