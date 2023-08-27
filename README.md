@@ -18,6 +18,7 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [1 SELECT name](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/1-SELECT%20name) | Pattern matching queries |
 | [2 SELECT from World](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/2-SELECT%20from%20World) | Query the World country profile table |
 | [3 SELECT from Nobel](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/3-SELECT%20from%20Nobel) | Additional practice of the basic features using a table of Nobel Prize winners |
+| [4 SELECT within Select](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/3-SELECT%20from%20Nobel) | Form queries using other queries |
 
 
 ## SQL Zoo Quiz
