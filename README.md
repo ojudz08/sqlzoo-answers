@@ -20,6 +20,7 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [3 SELECT from Nobel](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/3-SELECT%20from%20Nobel) | Additional practice of the basic features using a table of Nobel Prize winners |
 | [4 SELECT within Select](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/4-SELECT%20within%20SELECT) | Form queries using other queries |
 | [5 SUM and COUNT](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/5-SUM%20and%20COUNT) | Queries with SUM and COUNT |
+| [6 JOIN](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/6-JOIN) | Queries using JOIN operation |
 
 
 ## SQL Zoo Quiz
@@ -30,6 +31,7 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [2 Nobel Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/2-Nobel%20Quiz) | Questions using nobel table |
 | [3 Nested SELECT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/3-Nested%20SELECT%20Quiz) | Questions with nested SELECT |
 | [4 SUM and COUNT Quiz](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Quizes/4-SUM%20and%20COUNT%20Quiz) | Questions about SUM and Count |
+| [5 JOIN Quiz]() | Questions on JOIN operation |
 
 
 ## References

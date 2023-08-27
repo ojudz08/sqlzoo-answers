@@ -19,7 +19,7 @@
 | 1001 | POL | Robert Lewandowski | 17 |
 | 1001 | GRE | Dimitris Salpingidis | 51 |
 | 1002 | RUS | Alan Dzagoev | 15 |
-| 1002 | RUS | Alan Dzagoev | 82 |
+| 1002 | RUS | Roman Pavlyuchenko | 82 |
 | ... |  |  |  |
 
 
