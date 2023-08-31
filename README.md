@@ -15,7 +15,7 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [5 SUM and COUNT](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/5-SUM%20and%20COUNT) | Apply aggregate functions |
 | [6 JOIN](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/6-JOIN) | Join two tables; game and goals |
 | [7 More JOIN Oprations](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/7-More%20JOIN%20operations) | Join actors to movies in the Movie Database |
-| [8a Using Null]() | Look at teachers in departments |
+| [8a Using Null](https://github.com/c-m-a/sqlzoo-answer/tree/master/8-Using-Null) | Look at teachers in departments |
 | [8b Numeric Examples]() | Look at a survey and deal with some more complex calculations |
 
 

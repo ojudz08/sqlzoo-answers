@@ -11,8 +11,8 @@ teacher
 | 106 |  | Deadyawn | 3345 | |
 | ... | | | | |
 
-dept
 
+dept
 | id | name |
 | :-- | :-- |
 | 1 | Computing |
