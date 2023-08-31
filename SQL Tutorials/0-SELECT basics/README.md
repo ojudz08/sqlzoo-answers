@@ -1,4 +1,4 @@
-## SELECT basics
+## SELECT basics Tutorial
 | name | continet | area | population | gdp |
 | :--- | :--- | :--- | :--- | :--- |
 | Afghanistan | Asia | 652230 | 25500100 | 20343000000 |
