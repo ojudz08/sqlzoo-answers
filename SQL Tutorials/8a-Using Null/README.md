@@ -1,6 +1,6 @@
 ## Using Null Tutorial
 
-teacher
+#### teacher
 | id | dept | name | phone | mobile |
 | :-- | :-- | :-- | :-- | :-- |
 | 101 | 1 | Shrivell | 2753 | 07986 555 1234 |
@@ -11,14 +11,14 @@ teacher
 | 106 |  | Deadyawn | 3345 | |
 | ... | | | | |
 
-
-dept
+#### dept
 | id | name |
 | :-- | :-- |
 | 1 | Computing |
 | 2 | Design |
 | 3 | Engineering |
 | ... | |
+
 
 ### Teachers and Departments
 The school includes many departments. Most teachers work exclusively for a single department. Some teachers have no department.
