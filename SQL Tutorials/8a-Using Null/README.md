@@ -1,4 +1,6 @@
 ## Using Null Tutorial
+
+teacher
 | id | dept | name | phone | mobile |
 | :-- | :-- | :-- | :-- | :-- |
 | 101 | 1 | Shrivell | 2753 | 07986 555 1234 |
@@ -9,6 +11,7 @@
 | 106 |  | Deadyawn | 3345 | |
 | ... | | | | |
 
+dept
 
 | id | name |
 | :-- | :-- |
