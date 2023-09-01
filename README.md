@@ -17,9 +17,9 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [7 More JOIN Oprations](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/7-More%20JOIN%20operations) | Join actors to movies in the Movie Database |
 | [8a Using Null](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/8a-Using%20Null) | Look at teachers in departments |
 | [8b Numeric Examples](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/8b-Numeric%20Examples) | Look at a survey and deal with some more complex calculations |
-| [9a Window function]() | Examine UK general election results |
+| [9a Window Function]() | Examine UK general election results |
 | [9b COVID 19]() | Measure the impact of COVID-19 |
-| [9c Self Join]() | Join Edinburgh bus routes to Edinburgh bus routes |
+| [9c Self JOIN]() | Join Edinburgh bus routes to Edinburgh bus routes |
 
 
 ## SQL Zoo Quiz
