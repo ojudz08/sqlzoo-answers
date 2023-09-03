@@ -1,10 +1,8 @@
-<!-- ABOUT PROJECT -->
-Learn SQL
+## SQL Zoo Contents
 
 This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial) 
 
 
-## SQL Zoo Contents
 | Tutorial | Description |
 | :--- | :--- |
 | [0 SELECT basics](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/0-SELECT%20basics) | Simple queries to get you started |
