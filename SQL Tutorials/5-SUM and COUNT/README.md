@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
+
 ## SUM and COUNT Tutorial
 ### World Country Profile: Aggregate fucntions
 This tutorial is about aggregate functions such as COUNT, SUM and AVG. An aggregate function takes many values and delivers just one value. For example the function SUM would aggregate the values 2, 4 and 5 to deliver the single value 11.
@@ -80,3 +82,5 @@ SELECT continent FROM world
 WHERE population >= 100000000
 GROUP BY continent
 ```
+
+<p align="right"><a href="#top">Back To Top</a></p>
