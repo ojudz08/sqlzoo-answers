@@ -1,5 +1,5 @@
 ## Using SUM, Count, MAX, DISTINCT and ORDER BY Tutorial
-### BBS Country Profile
+### BBC Country Profile
 
 ### Aggregates
 ----
