@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
+
 ## SELECT from WORLD Tutorial
 In this tutorial you will use the SELECT command on the table world:
 | name | continet | area | population | gdp |
