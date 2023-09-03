@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
+
 ## SELECT from Nobel Tutorial
 ### Nobel Laureates
 Practice simple SQL queries on a single table. This tutorial is concerned with a table of Nobel prize winners:
@@ -130,7 +132,7 @@ WHERE winner = 'EUGENE O''NEILL'
 ```SQL
 SELECT winner, yr, subject FROM nobel
 WHERE winner LIKE 'Sir%'
-ORDER BY yr DESC;
+ORDER BY yr DESC
 ```
 
 
@@ -142,3 +144,5 @@ SELECT winner, subject FROM nobel
 WHERE yr = 1984
 ORDER BY subject IN ('physics','chemistry') ASC, subject, winner
 ```
+
+<p align="right"><a href="#top">Back To Top</a></p>
