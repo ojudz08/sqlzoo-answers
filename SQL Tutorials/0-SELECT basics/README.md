@@ -1,4 +1,7 @@
 ## SELECT basics Tutorial
+
+<p align="right">(<a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">back to main page</a>)</p>
+
 | name | continet | area | population | gdp |
 | :--- | :--- | :--- | :--- | :--- |
 | Afghanistan | Asia | 652230 | 25500100 | 20343000000 |
