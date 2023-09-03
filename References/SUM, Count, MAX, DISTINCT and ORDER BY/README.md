@@ -17,7 +17,7 @@ ORDER BY permits us to see the result of a SELECT in any particular order. We ma
 #### 1. The total population and GDP of Europe
 ```SQL
 SELECT SUM(population), SUM(gdp) FROM bbc
-WHERE continent = 'Europe'
+WHERE region = 'Europe'
 ```
 
 
