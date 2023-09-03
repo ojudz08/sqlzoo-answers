@@ -141,3 +141,5 @@ WHERE capital LIKE CONCAT(name, '_%')
 SELECT name, REPLACE(capital, name, '') AS ext FROM world
 WHERE capital LIKE Concat(name, '_%')
 ```
+
+<p align="right"><a href="#top">Back To Top</a></p>
