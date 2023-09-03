@@ -20,6 +20,11 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [9b COVID 19]() | Measure the impact of COVID-19 |
 | [9c Self JOIN]() | Join Edinburgh bus routes to Edinburgh bus routes |
 
+## SQL Games
+| Game |
+| :-- |
+| [Select Card Game](https://sqlzoo.net/40289347/) |
+
 
 ## SQL Zoo Quiz
 | Quiz | Description |
