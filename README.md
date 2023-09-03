@@ -1,7 +1,8 @@
-## SQL Zoo Contents
+## Learning SQL
 
 This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial) 
 
+## SQL Zoo Contents
 
 | Tutorial | Description |
 | :--- | :--- |
