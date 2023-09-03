@@ -33,4 +33,4 @@ SELECT name, area FROM world
 WHERE area BETWEEN 200000 AND 250000
 ```
 
-<p align="right">(<a href="#top">Back To Top</a>)</p>
+<p align="right"><a href="#top">Back To Top</a></p>
