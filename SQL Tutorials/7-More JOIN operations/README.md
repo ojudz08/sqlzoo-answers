@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
+
 ## More JOIN operations Tutorial
 This tutorial introduces the notion of a join. The database consists of three tables movie, actor and casting .
 
@@ -54,7 +56,7 @@ What is a cast list? The cast list is the names of the actors who were in the mo
 #### Use movieid=11768, (or whatever value you got from the previous question)
 ```SQL
 SELECT name FROM actor
-JOIN casting ON (actorid=id)
+JOIN casting ON actorid = id
 WHERE movieid = 11768
 ```
 
@@ -63,8 +65,8 @@ WHERE movieid = 11768
 #### 7. Alien cast list
 ```SQL
 SELECT a.name FROM casting c
-JOIN actor a ON (a.id=c.actorid)
-JOIN movie m ON (m.id=c.movieid)
+JOIN actor a ON a.id = c.actorid
+JOIN movie m ON m.id = c.movieid
 WHERE m.title = 'Alien'
 ```
 
@@ -73,8 +75,8 @@ WHERE m.title = 'Alien'
 #### 8. List the films in which 'Harrison Ford' has appeared
 ```SQL
 SELECT m.title FROM casting c
-JOIN actor a ON (a.id=c.actorid)
-JOIN movie m ON (m.id=c.movieid)
+JOIN actor a ON a.id = c.actorid
+JOIN movie m ON m.id = c.movieid
 WHERE a.name = 'Harrison Ford'
 ```
 
@@ -83,8 +85,8 @@ WHERE a.name = 'Harrison Ford'
 #### 9. List the films where 'Harrison Ford' has appeared - but not in the starring role. [Note: the ord field of casting gives the position of the actor. If ord=1 then this actor is in the starring role]
 ```SQL
 SELECT m.title FROM casting c
-JOIN actor a ON (a.id=c.actorid)
-JOIN movie m ON (m.id=c.movieid)
+JOIN actor a ON a.id = c.actorid
+JOIN movie m ON m.id = c.movieid
 WHERE a.name = 'Harrison Ford' AND c.ord <> 1
 ```
 
@@ -93,8 +95,8 @@ WHERE a.name = 'Harrison Ford' AND c.ord <> 1
 #### 10. List the films together with the leading star for all 1962 films.
 ```SQL
 SELECT m.title, a.name FROM casting c
-JOIN actor a ON (a.id=c.actorid)
-JOIN movie m ON (m.id=c.movieid)
+JOIN actor a ON a.id = c.actorid
+JOIN movie m ON m.id = c.movieid
 WHERE c.ord = 1 AND m.yr = 1962
 ```
 
@@ -103,8 +105,8 @@ WHERE c.ord = 1 AND m.yr = 1962
 #### 11. Which were the busiest years for 'Rock Hudson', show the year and the number of movies he made each year for any year in which he made more than 2 movies.
 ```SQL
 SELECT yr, COUNT(title) FROM movie
-JOIN casting ON (movie.id=movieid)
-JOIN actor   ON (actorid=actor.id)
+JOIN casting ON movie.id = movieid
+JOIN actor ON actorid = actor.id
 WHERE name = 'Rock Hudson'
 GROUP BY yr
 HAVING COUNT(title) > 2
@@ -120,7 +122,7 @@ Title is not a unique field, create a table of IDs in your subquery
 ```SQL
 SELECT m.title, a.name FROM casting c
 JOIN movie m ON (m.id = c.movieid AND c.ord = 1)
-JOIN actor a ON (a.id = c.actorid)
+JOIN actor a ON a.id = c.actorid
 WHERE m.id in (SELECT movieid FROM casting
                WHERE actorid IN ( SELECT id FROM actor WHERE name='Julie Andrews' ) )
 ```
@@ -131,9 +133,9 @@ WHERE m.id in (SELECT movieid FROM casting
 ```SQL
 SELECT name FROM actor
 WHERE id IN (SELECT c.actorid from casting c
-              WHERE c.ord = 1
-              GROUP BY c.actorid
-              HAVING SUM(c.ord) >= 15)
+             WHERE c.ord = 1
+             GROUP BY c.actorid
+             HAVING SUM(c.ord) >= 15)
 ORDER BY name
 ```
 
@@ -141,9 +143,9 @@ ORDER BY name
 ### Released in the year 1978
 #### 14. List the films released in the year 1978 ordered by the number of actors in the cast, then by title.
 ```SQL
-SELECT m.title, count(a.id) n_actors FROM casting c 
-JOIN movie m ON (m.id = c.movieid)
-JOIN actor a ON (a.id = c.actorid)
+SELECT m.title, COUNT(a.id) n_actors FROM casting c 
+JOIN movie m ON m.id = c.movieid
+JOIN actor a ON a.id = c.actorid
 WHERE m.yr = 1978
 GROUP BY m.title
 ORDER BY n_actors DESC, m.title
@@ -154,9 +156,11 @@ ORDER BY n_actors DESC, m.title
 #### 15. List all the people who have worked with 'Art Garfunkel'.
 ```SQL
 SELECT a.name FROM casting c
-JOIN actor a on (a.id = c.actorid)
+JOIN actor a on a.id = c.actorid
 WHERE movieid IN (SELECT movieid FROM casting c
-                  JOIN actor a ON (a.id = c.actorid)
+                  JOIN actor a ON a.id = c.actorid
                   WHERE a.name = 'Art Garfunkel')
-AND a.name <> 'Art Garfunkel' 
+AND a.name <> 'Art Garfunkel'
 ```
+
+<p align="right"><a href="#top">Back To Top</a></p>
