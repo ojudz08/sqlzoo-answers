@@ -42,7 +42,7 @@ AND continent = 'Europe'
 ```SQL
 SELECT name, continent FROM world
 WHERE continent IN (SELECT continent FROM world
-                    WHERE name IN ('Argentina', 'Australia') ) 
+                    WHERE name IN ('Argentina', 'Australia')) 
 ```
 
 
