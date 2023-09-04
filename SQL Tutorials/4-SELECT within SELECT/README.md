@@ -89,7 +89,7 @@ We can use the word ALL to allow >= or > or < or <=to act over a list. For examp
 ```SQL
 SELECT name FROM world
 WHERE population >= ALL (SELECT population FROM world
-                         WHERE population>0)
+                         WHERE population > 0)
 ```
 
 #### 6. Which countries have a GDP greater than every country in Europe? [Give the name only.] (Some countries may have NULL gdp values)
