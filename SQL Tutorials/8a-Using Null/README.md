@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
+
 ## Using Null Tutorial
 
 ### teacher
@@ -36,21 +38,21 @@ WHERE dept IS NULL
 #### 2. Note the INNER JOIN misses the teachers with no department and the departments with no teacher.
 ```SQL
 SELECT teacher.name, dept.name FROM teacher
-INNER JOIN dept ON (teacher.dept=dept.id)
+INNER JOIN dept ON teacher.dept = dept.id
 ```
 
 
 #### 3. Use a different JOIN so that all teachers are listed.
 ```SQL
 SELECT teacher.name, dept.name FROM teacher
-LEFT JOIN dept ON (teacher.dept=dept.id)
+LEFT JOIN dept ON teacher.dept = dept.id
 ```
 
 
 #### 4. Use a different JOIN so that all departments are listed.
 ```SQL
 SELECT teacher.name, dept.name FROM teacher
-RIGHT JOIN dept ON (teacher.dept=dept.id)
+RIGHT JOIN dept ON teacher.dept = dept.id
 ```
 
 
@@ -66,7 +68,7 @@ SELECT name, COALESCE(mobile, '07986 444 2266') AS mobile FROM teacher0.
 #### 6. Use the COALESCE function and a LEFT JOIN to print the teacher name and department name. Use the string 'None' where there is no department.
 ```SQL
 SELECT t.name, COALESCE(d.name, 'None') FROM teacher t
-LEFT JOIN dept d ON (t.dept=d.id)
+LEFT JOIN dept d ON t.dept = d.id
 ```
 
 
@@ -79,7 +81,7 @@ SELECT COUNT(name), COUNT(mobile) FROM teacher
 #### 8. Use COUNT and GROUP BY dept.name to show each department and the number of staff. Use a RIGHT JOIN to ensure that the Engineering department is listed.
 ```SQL
 SELECT d.name, COUNT(t.name) FROM teacher t
-RIGHT JOIN dept d ON (t.dept=d.id)
+RIGHT JOIN dept d ON t.dept = d.id
 GROUP BY d.name
 ```
 
@@ -105,3 +107,5 @@ SELECT name,
          END
 FROM teacher
 ```
+
+<p align="right"><a href="#top">Back To Top</a></p>
