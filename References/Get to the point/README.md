@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
+
 ## Get to the point
 ### Movie Database: The JOIN
 
@@ -13,7 +15,7 @@ The result below gives one row for every element of the casting table which rela
 
 ```SQL
 SELECT * FROM casting
-JOIN actor ON casting.actorid=actor.id
+JOIN actor ON casting.actorid = actor.id
 WHERE actor.name='John Hurt'
 ```
 
@@ -24,7 +26,7 @@ The it makes sense to join the above table with the movie table. The obvious fie
 
 ```SQL
 SELECT * FROM movie
-JOIN casting ON movie.id=movieid
-JOIN actor   ON actorid=actor.id
-WHERE actor.name='John Hurt'
+JOIN casting ON movie.id = movieid
+JOIN actor   ON actorid = actor.id
+WHERE actor.name = 'John Hurt'
 ```
