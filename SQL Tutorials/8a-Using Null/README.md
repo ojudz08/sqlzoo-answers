@@ -61,7 +61,7 @@ RIGHT JOIN dept ON teacher.dept = dept.id
 
 Show teacher name and mobile number or '07986 444 2266'
 ```SQL
-SELECT name, COALESCE(mobile, '07986 444 2266') AS mobile FROM teacher0.
+SELECT name, COALESCE(mobile, '07986 444 2266') AS mobile FROM teacher
 ```
 
 
