@@ -124,7 +124,7 @@ SELECT m.title, a.name FROM casting c
 JOIN movie m ON (m.id = c.movieid AND c.ord = 1)
 JOIN actor a ON a.id = c.actorid
 WHERE m.id in (SELECT movieid FROM casting
-               WHERE actorid IN ( SELECT id FROM actor WHERE name='Julie Andrews' ) )
+               WHERE actorid IN ( SELECT id FROM actor WHERE name = 'Julie Andrews' ) )
 ```
 
 
