@@ -130,7 +130,7 @@ WHERE name = (SELECT name FROM world
 SELECT name, continent, population FROM world x
 WHERE 25000000 >= ALL (SELECT population FROM world y
 		       WHERE x.continent = y.continent
-                       AND y.population>0)
+                       AND y.population > 0)
 ```
 
 
