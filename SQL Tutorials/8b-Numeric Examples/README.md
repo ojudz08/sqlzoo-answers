@@ -96,8 +96,8 @@ GROUP BY subject
 ```SQL
 SELECT subject, ROUND(SUM(response*A_STRONGLY_AGREE) / SUM(response)) FROM nss
 WHERE question='Q22'
-AND (subject='(8) Computer Science'
-OR subject='(H) Creative Arts and Design')
+AND (subject = '(8) Computer Science'
+  OR subject = '(H) Creative Arts and Design')
 GROUP BY subject
 ```
 
@@ -109,7 +109,7 @@ GROUP BY subject
 ```SQL
 SELECT institution, ROUND(SUM(score*response) / SUM(response)) FROM nss
 WHERE question = 'Q22'
-AND (institution LIKE '%Manchester%')
+AND institution LIKE '%Manchester%'
 GROUP by institution
 ORDER BY institution 
 ```
@@ -126,7 +126,7 @@ SELECT institution,
                 END)
 FROM nss
 WHERE question='Q01'
-AND (institution LIKE '%Manchester%')
+AND institution LIKE '%Manchester%'
 GROUP BY institution
 ```
 
