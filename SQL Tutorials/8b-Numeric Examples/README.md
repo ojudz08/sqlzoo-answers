@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
+
 ## NSS Tutorial
 
 ### National Student Survey 2012
@@ -127,3 +129,5 @@ WHERE question='Q01'
 AND (institution LIKE '%Manchester%')
 GROUP BY institution
 ```
+
+<p align="right"><a href="#top">Back To Top</a></p>
