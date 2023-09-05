@@ -18,7 +18,7 @@ This is repo contans exercises and answers from [SQL Zoo](https://sqlzoo.net/wik
 | [8b Numeric Examples](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/8b-Numeric%20Examples) | Look at a survey and deal with some more complex calculations |
 | [9a Window Function](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/9a-Window%20Function) | Examine UK general election results |
 | [9b COVID 19](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/9b-COVID%2019#top) | Measure the impact of COVID-19 |
-| [9c Self JOIN]() | Join Edinburgh bus routes to Edinburgh bus routes |
+| [9c Self JOIN](https://github.com/ojudz08/sqlzoo-answers/tree/main/SQL%20Tutorials/9c-Self%20JOIN) | Join Edinburgh bus routes to Edinburgh bus routes |
 
 ## SQL Games
 | Game |
