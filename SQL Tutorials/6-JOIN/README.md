@@ -176,9 +176,9 @@ GROUP BY id, mdate
 ```SQL
 SELECT mdate,
   team1,
-  SUM(CASE WHEN teamid=team1 THEN 1 ELSE 0 END) score1,
+  SUM(CASE WHEN teamid = team1 THEN 1 ELSE 0 END) score1,
   team2,
-  SUM(CASE WHEN teamid=team2 THEN 1 ELSE 0 END) score2
+  SUM(CASE WHEN teamid = team2 THEN 1 ELSE 0 END) score2
   FROM game LEFT JOIN goal ON id = matchid
 GROUP BY mdate, team1, team2
 ORDER BY mdate, id, team1, team2
