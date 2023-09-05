@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
+
 ## Nobel Quiz
 | yr | subject | winner |
 | :--- | :--- | :--- |
@@ -82,3 +84,6 @@ GROUP BY subject
 | Medicine | 2 |
 | Peace | 1 |
 | Physics | 1 |
+
+
+<p align="right"><a href="#top">Back To Top</a></p>
