@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
+
 ## SELECT Quiz
 Some questions concerning basic SQL statements
 | name | continet | area | population | gdp |
@@ -83,3 +85,5 @@ WHERE area > 50000 AND population < 10000000
 SELECT name, population/area FROM world
 WHERE name IN ('China', 'Nigeria', 'France', 'Australia')
 ```
+
+<p align="right"><a href="#top">Back To Top</a></p>
