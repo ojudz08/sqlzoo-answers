@@ -82,7 +82,7 @@ HINT: The A_STRONGLY_AGREE column is a percentage. To work out the total number 
 
 ```SQL
 SELECT subject, SUM(A_STRONGLY_AGREE * response / 100) FROM nss
-WHERE question='Q22'
+WHERE question = 'Q22'
 AND (subject = '(8) Computer Science'
   OR subject = '(H) Creative Arts and Design')
 GROUP BY subject 
@@ -95,7 +95,7 @@ GROUP BY subject
 #### Use the ROUND function to show the percentage without decimal places.
 ```SQL
 SELECT subject, ROUND(SUM(response*A_STRONGLY_AGREE) / SUM(response)) FROM nss
-WHERE question='Q22'
+WHERE question = 'Q22'
 AND (subject = '(8) Computer Science'
   OR subject = '(H) Creative Arts and Design')
 GROUP BY subject
