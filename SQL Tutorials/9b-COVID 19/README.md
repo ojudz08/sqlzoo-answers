@@ -1,5 +1,6 @@
 <p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
 
+
 ## Window LAG Tutorial
 
 ### COVID-19 Data
@@ -133,5 +134,6 @@ SELECT [ANSWER HERE]
 ```SQL
 SELECT [ANSWER HERE] 
 ```
+
 
 <p align="right"><a href="#top">Back To Top</a></p>
