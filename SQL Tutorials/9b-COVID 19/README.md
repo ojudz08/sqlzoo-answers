@@ -10,7 +10,10 @@ The SQL Window functions include LAG, LEAD, RANK and NTILE. These functions oper
 #### 1. The example uses a WHERE clause to show the cases in 'Italy' in March 2020.
 #### Modify the query to show data from Spain
 ```SQL
-SELECT [ANSWER HERE] 
+SELECT name, DAY(whn), confirmed, deaths, recovered FROM covid
+WHERE name = 'spain'
+AND MONTH(whn) = 3
+ORDER BY whn
 ```
 
 
@@ -27,7 +30,10 @@ SET @@sql_mode='ANSI';
 
 #### Modify the query to show confirmed for the day before.
 ```SQL
-SELECT [ANSWER HERE] 
+SELECT name, DAY(whn), confirmed, LAG(confirmed, 1) OVER (PARTITION BY name ORDER BY whn) FROM covid
+WHERE name = 'Italy'
+AND MONTH(whn) = 3
+ORDER BY whn
 ```
 
 ### LAG Operation
@@ -43,14 +49,29 @@ ORDER BY whn
 ```
 Notice how the values in the LAG column match the value of the row diagonally above and to the left.
 
-[INSERT TABLE HERE]
+| name | Day(whn) | confirmed | dbf |
+| :-- | :-- | :-- | :-- |
+| Italy | 1 | 1694 | null |
+| Italy | 2 | 2036 | 1694 |
+| Italy | 3 | 2502 | 2036 |
+| Italy | 4 | 3089 | 2502 |
+| Italy | 5 | 3858 | 3089 |
+| Italy | 6 | 4636 | 3858 |
+| Italy | 7 | 5883 | 4636 |
+| Italy | 8 | 7375 | 5883 |
+| Italy | 9 | 9172 | 7375 |
+| Italy | 10 | 10149 | 9172 |
+| ... | | | |
 
 ### Number of new cases
 #### 3. The number of confirmed case is cumulative - but we can use LAG to recover the number of new cases reported for each day.
 
 #### Show the number of new cases for each day, for Italy, for March.
 ```SQL
-SELECT [ANSWER HERE] 
+SELECT name, DAY(whn), Confirmed - Lag(confirmed, 1) OVER (PARTITION BY name ORDER BY whn) As new FROM covid
+WHERE name = 'Italy'
+AND MONTH(whn) = 3
+ORDER BY whn
 ```
 
 
@@ -72,7 +93,12 @@ SELECT [ANSWER HERE]
 
 #### In the sample query we JOIN this week tw with last week lw using the DATE_ADD function.
 ```SQL
-SELECT [ANSWER HERE] 
+SELECT tw.name, DATE_FORMAT(tw.whn, '%Y-%m-%d'), tw.confirmed - lw.confirmed AS new FROM covid tw
+LEFT JOIN covid lw ON DATE_ADD(lw.whn, INTERVAL 1 WEEK) = tw.whn
+AND tw.name = lw.name
+WHERE tw.name = 'Italy'
+AND WEEKDAY(tw.whn) = 0
+ORDER BY tw.whn
 ```
 
 
@@ -85,7 +111,9 @@ SELECT [ANSWER HERE]
 
 #### Add a column to show the ranking for the number of deaths due to COVID.
 ```SQL
-SELECT [ANSWER HERE] 
+SELECT name, confirmed, RANK() OVER (ORDER BY confirmed DESC) AS rc, deaths, RANK() OVER (ORDER BY deaths DESC) AS rd FROM covid
+WHERE whn = '2020-04-20'
+ORDER BY confirmed DESC
 ```
 
 
