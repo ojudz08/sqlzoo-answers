@@ -1,3 +1,6 @@
+<p align="right"><a href="https://github.com/ojudz08/sqlzoo-answers/tree/main">Back To Main Page</a></p>
+
+
 ## SUM and COUNT Quiz
 | name | continent | area | population | gdp |
 | :--- | :--- | :--- | :--- | :--- |
@@ -79,3 +82,6 @@ HAVING SUM(area) <= 20000000
 | Middle East | 13403102 |
 | South America | 17740392 |
 | South Asia | South Asia |
+
+
+<p align="right"><a href="#top">Back To Top</a></p>
